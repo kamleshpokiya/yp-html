@@ -1,0 +1,125 @@
+@media(max-width: 1655px) {
+    .data-table-main-box {
+        padding: 30px 30px;
+        padding-right: 300px;
+    }
+}
+
+@media(max-width:1365px) {
+    .data-table-main-box {
+        padding: 30px 30px;
+        padding-right: 200px;
+    }
+}
+
+
+@media(max-width:1199px) {
+    .pdlb {
+        padding-left: 16.666667%;
+    }
+
+    .data-table-main-box {
+        padding: 30px 30px;
+        padding-right: 30px;
+    }
+
+    #name, #email, #role {
+        width: 60%;
+    }
+}
+
+@media(max-width:991px) {
+    .pdlb {
+        padding-left: 0;
+    }
+
+    .col-lg-11 {
+        max-width: 96%;
+        padding-left: 30px !important;
+        padding-right: 0 !important;
+        height: 100vh;
+    }
+
+    .card.col-lg-6 {
+        padding: 0 15px;
+    }
+
+    .col-lg-2.toggle {
+        position: unset;
+        z-index: 9999;
+    }
+
+    .data-table-main-box {
+        padding: 0;
+    }
+
+
+
+    .login-title-box h1 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    button.star-btn.next_button {
+        width: unset;
+    }
+
+    .table td, .table th {
+        padding: 10px;
+    }
+
+    .delet img, .edit img {
+        width: 26px;
+    }
+
+    .delet img {
+        width: 29px !important;
+    }
+}
+
+@media(max-width:768px) {
+    input.search {
+        width: 300px;
+    }
+
+    .main-search-box button {
+        left: 256px;
+    }
+
+    .login-title-box h1 {
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width:585px) {
+    .padding-box.pdlb {
+        max-width: 90vw;
+        overflow-x: scroll;
+    }
+
+    .pagination a {
+        padding: 5px 10px;
+    }
+
+    #name, #email, #role {
+        padding: 5px 10px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: end;
+    }
+
+    button.star-btn.next_button {
+        margin-top: 0;
+    }
+
+    .star-btn {
+        padding: 7px 40px;
+    }
+}

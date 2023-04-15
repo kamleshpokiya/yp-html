@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css">
+    <link rel="stylesheet" href="assets/css/team.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/team-responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+</head>
+
+<body>
+    <div class="page">
+        <div class="wraper">
+            <div class="row">
+                <!-- aside-bar-left-side -->
+                <div class="col-md-1 aside-content-box">
+                    <aside>
+                        <div class="aside-main-box">
+                            <div class="aside-logo">
+                                <img src="assets/img/Yp-logo.png" alt="">
+                            </div>
+                            <div class="aside-listing">
+                                <ul>
+                                    <li class="active first"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                                width="30" height="30" viewBox="0 0 24 24" fill="#fff">
+                                                <path fill="none" d="M0 0h24v24H0V0z" />
+                                                <path
+                                                    d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" />
+                                            </svg>
+                                        </a>
+                                        <div class="msg">
+                                            <p>hello</p>
+                                        </div>
+                                    </li>
+                                    <li class="active">
+                                        <a href="#"><img src="assets/img/listing-icon2.png" alt=""></a>
+                                        <div class="msg">
+                                            <p>hello</p>
+                                        </div>
+                                    </li>
+                                    <li class="active"><a href="#"><img src="assets/img/listing-icon3.png" alt=""></a>
+                                        <div class="msg">
+                                            <p>hello</p>
+                                        </div>
+                                    </li>
+                                    <li class="active"><a href="#"><img src="assets/img/listing-icon4.png" alt=""></a>
+                                        <div class="msg">
+                                            <p>hello</p>
+                                        </div>
+                                    </li>
+                                    <li class="active"><a href="#"><img src="assets/img/listing-icon5.png" alt=""></a>
+                                        <div class="msg">
+                                            <p>hello</p>
+                                        </div>
+                                    </li>
+                                    <li class="active"><a href="#"><img src="assets/img/listing-icon6.png" alt=""></a>
+                                        <div class="msg">
+                                            <p>hello</p>
+                                        </div>
+                                    </li>
+                                    <li class="active"><a href="#"><img src="assets/img/person.png" alt=""></a>
+
+                                    </li>
+                                    <li class="notification right-side-icon" id="active"><a href="#"><img
+                                                src="assets/img/bell.png" alt=""></a>
+                                        <div class="droupdown-main-box">
+                                            <div class="droupdown">
+                                                <div class="notification-title-box">
+                                                    <h3>
+                                                        Notification
+                                                    </h3>
+                                                </div>
+                                                <div class="notification-box">
+                                                    <div class="alert alert-warn">
+                                                        <h4> Notificataion heading</h4>
+                                                        <p>Warning! We're currently carrying out
+                                                            maintenance, some features may not work correctly.</p>
+                                                    </div>
+                                                    <div class="alert  alert-warn">
+                                                        <h4> Notificataion heading</h4>
+                                                        <p> Here's some information you may find
+                                                            useful!</p>
+                                                    </div>
+                                                    <div class="alert  alert-warn">
+                                                        <h4> Notificataion heading</h4>
+                                                        <p> An error occurred while attempting to
+                                                            register your account...</p>
+                                                    </div>
+                                                    <div class="alert  alert-warn">
+                                                        <h4> Notificataion heading</h4>
+                                                        <p> Success!Your registration is now
+                                                            complete!</p>
+                                                    </div>
+
+                                                </div>
+                                                <div class="notification-btn">
+                                                    <a href="#"> View All</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="plus right-arrow">
+                            <img src="assets/img/left-arrow.png" alt="">
+                        </div>
+                    </aside>
+                </div>
+                <!-- main-contant-right-side -->
+                <div class="col-md-12  col-lg-11">
+                    <!-- header -->
+                    <header class="main-header">
+                        <nav class="navigation">
+                            <div class="logo">
+                                <a href="#">
+                                    <h1>Teams</h1>
+                                </a>
+                            </div>
+                            <div class="menu-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M5 7h14c.6 0 1-.4 1-1s-.4-1-1-1H5c-.6 0-1 .4-1 1s.4 1 1 1zm0 6h14c.6 0 1-.4 1-1s-.4-1-1-1H5c-.6 0-1 .4-1 1s.4 1 1 1zm0 6h14c.6 0 1-.4 1-1s-.4-1-1-1H5c-.6 0-1 .4-1 1s.4 1 1 1z" />
+                                </svg>
+                            </div>
+                        </nav>
+                    </header>
+                    <section>
+                        <div class="row">
+                            <div class="col-md-4 first-team-form-box">
+                                <div class="new-teams-main-box">
+                                    <div class="login-title-box">
+                                        <h3>New team</h3>
+                                        <div class="res-x-btn">
+                                            <button>X</button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 left">
+                                            <div class="team-logo">
+                                                <div class='file-input'>
+                                                    <input type='file'>
+
+                                                    <span class='label' data-js-label> <img
+                                                            src="assets/img/team-icon.png" alt="team-logo"
+                                                            title="team-logo"></label>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="col-md-8">
+                                            <form action="#">
+                                                <div class="account-box">
+                                                    <div class="input-box input">
+                                                        <label id="name-label">
+                                                            Team Name:
+                                                            <input type="text" id="name"
+                                                                placeholder="Enter your team name..." required="">
+                                                        </label>
+
+                                                    </div>
+                                                    <div class="input-box input comment">
+                                                        <div class="secend-box">
+                                                            <label id="name-label">
+                                                                Add employee:
+                                                                <input class="search" type="search" name="search"
+                                                                    placeholder="Employee name...">
+                                                                <button>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                                                        height="20" viewBox="0 0 48 48" fill="#ddd">
+                                                                        <path
+                                                                            d="M46.599 40.236L36.054 29.691C37.89 26.718 39 23.25 39 19.5 39 8.73 30.27 0 19.5 0S0 8.73 0 19.5 8.73 39 19.5 39c3.75 0 7.218-1.11 10.188-2.943l10.548 10.545a4.501 4.501 0 0 0 6.363-6.366zM19.5 33C12.045 33 6 26.955 6 19.5S12.045 6 19.5 6 33 12.045 33 19.5 26.955 33 19.5 33z">
+                                                                        </path>
+                                                                    </svg>
+                                                                </button>
+                                                            </label>
+
+                                                            <div class="scroll-bar-wrap">
+                                                                <div class="main-checkbox scroll-box">
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox" name="scales" id="ss">
+                                                                        <label for="ss" class="team-checkbox">
+                                                                            <img src="assets/img/team-1.jpg" alt="">
+
+                                                                            <span class="team-mem">
+                                                                                Hardik
+                                                                                <span class="team-dis">
+                                                                                    Project Manager
+                                                                                </span>
+                                                                            </span>
+
+
+
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox" name="scales" id="ss1">
+                                                                        <label for="ss1" class="team-checkbox">
+                                                                            <img src="assets/img/team-3.jpg" alt="">
+
+                                                                            <span class="team-mem">
+                                                                                Kamlesh Pokiya
+                                                                                <span class="team-dis">
+                                                                                    Project Manager
+                                                                                </span>
+                                                                            </span>
+
+
+
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox" name="scales" id="ss2">
+                                                                        <label for="ss2" class="team-checkbox">
+                                                                            <img src="assets/img/team-4.jpg" alt="">
+
+                                                                            <span class="team-mem">
+                                                                                Yahya Kazi
+                                                                                <span class="team-dis">
+                                                                                    web designer
+                                                                                </span>
+                                                                            </span>
+
+
+
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox" name="scales" id="ss3">
+                                                                        <label for="ss3" class="team-checkbox">
+                                                                            <img src="assets/img/team-4.jpg" alt="">
+
+                                                                            <span class="team-mem">
+                                                                                Sufiyan
+                                                                                <span class="team-dis">
+                                                                                    web designer
+                                                                                </span>
+                                                                            </span>
+
+
+
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox" name="scales" id="ss4">
+                                                                        <label for="ss4" class="team-checkbox">
+                                                                            <img src="assets/img/team-1.jpg" alt="">
+
+                                                                            <span class="team-mem">
+                                                                                Team
+                                                                                Developer
+                                                                                <span class="team-dis">
+                                                                                    5
+                                                                                    members
+                                                                                </span>
+                                                                            </span>
+
+
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox" name="scales" id="ss5">
+                                                                        <label for="ss5" class="team-checkbox">
+                                                                            <img src="assets/img/team-1.jpg" alt="">
+
+                                                                            <span class="team-mem">
+                                                                                Team
+                                                                                Developer
+                                                                                <span class="team-dis">
+                                                                                    5
+                                                                                    members
+                                                                                </span>
+                                                                            </span>
+
+
+
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="cover-bar">
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="buttons">
+                                                            <button class="star-btn next_button">Add to team</button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 secend-your-teams-box">
+                                <div class="your-teams">
+                                    <div class="login-title-box">
+                                        <h3>Your teams</h3>
+                                    </div>
+                                    <div class="scroll-bar-wrap">
+                                        <div class="yk-main-box scroll-box">
+                                            <label class="team-checkbox xxx">
+                                                <img src="assets/img/group-1.jpg" alt="">
+                                                <span class="team-mem">
+                                                    Team
+                                                    Developer
+                                                    <span class="team-dis">
+                                                        5
+                                                        members
+                                                    </span>
+                                                </span>
+                                            </label>
+                                            <label class="team-checkbox xxx">
+                                                <img src="assets/img/group-2.jpg" alt="">
+                                                <span class="team-mem">
+                                                    Team
+                                                    Developer
+                                                    <span class="team-dis">
+                                                        6
+                                                        members
+                                                    </span>
+                                                </span>
+                                            </label>
+
+                                            <label class="team-checkbox xxx">
+                                                <img src="assets/img/group-3.jpg" alt="">
+                                                <span class="team-mem">
+                                                    Team
+                                                    Developer
+                                                    <span class="team-dis">
+                                                        5
+                                                        members
+                                                    </span>
+                                                </span>
+                                                </span>
+                                            </label><label class="team-checkbox xxx">
+                                                <img src="assets/img/group-4.jpg" alt="">
+                                                <span class="team-mem">
+                                                    Team
+                                                    Developer
+                                                    <span class="team-dis">
+                                                        5
+                                                        members
+                                                    </span>
+                                                </span>
+                                            </label><label class="team-checkbox xxx">
+                                                <img src="assets/img/team-4.jpg" alt="">
+                                                <span class="team-mem">
+                                                    Team
+                                                    Developer
+                                                    <span class="team-dis">
+                                                        7
+                                                        members
+                                                    </span>
+                                                </span>
+                                            </label><label class="team-checkbox xxx">
+                                                <img src="assets/img/team-4.jpg" alt="">
+                                                <span class="team-mem">
+                                                    Hardik
+                                                    <span class="team-dis">
+                                                        Project
+                                                        Manager
+                                                    </span>
+                                                </span>
+                                            </label><label class="team-checkbox xxx">
+                                                <img src="assets/img/team-4.jpg" alt="">
+                                                <span class="team-mem">
+                                                    Hardik
+                                                    <span class="team-dis">
+                                                        Project
+                                                        Manager
+                                                    </span>
+                                                </span>
+                                            </label>
+                                        </div>
+                                        <div class="cover-bar"></div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="col-lg-4 toggle-right project-desc-wrap" id="first" style="display: none;">
+                                <div class="project-des-main-box">
+                                    <div class="project-des-box">
+                                        <div class="left">
+                                            <div class="team-logo">
+                                                <div class="file-input">
+                                                    <img src="assets/img/team-icon.png" alt="team-logo"
+                                                        title="team-logo">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="team-member-ditails">
+                                                <div class="des-boxs" id="Title">
+                                                    <h4>
+                                                        Name of team:
+                                                    </h4>
+                                                    <p>Team Codelinkinfotech</p>
+                                                </div>
+                                                <div class="des-boxs" id="Title">
+                                                    <h4>
+                                                        Team members:
+                                                    </h4>
+                                                    <p>8 Members</p>
+                                                </div>
+
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="scroll-bar-wrap">
+                                        <div class="yk-main-box scroll-box">
+
+                                            <label for="sss" class="team-checkbox cencle-member">
+                                                <div class="left">
+                                                    <button>
+                                                        <img src="assets/img/cross.png" alt="cancel-button"
+                                                            title="cancel-button">
+                                                    </button>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="assets/img/team-1.jpg" alt="">
+
+                                                    <span class="team-mem">
+                                                        Hardik
+                                                        <span class="team-dis">
+                                                            Project Manager
+                                                        </span>
+                                                    </span>
+                                                </div>
+
+                                            </label>
+                                            <label for="sss" class="team-checkbox cencle-member">
+                                                <div class="left">
+                                                    <button>
+                                                        <img src="assets/img/cross.png" alt="cancel-button"
+                                                            title="cancel-button">
+                                                    </button>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="assets/img/team-2.jpg" alt="">
+
+                                                    <span class="team-mem">
+                                                        Kamlesh Pokiya
+                                                        <span class="team-dis">
+                                                            Project Manager
+                                                        </span>
+                                                    </span>
+                                                </div>
+
+                                            </label> <label for="sss" class="team-checkbox cencle-member">
+                                                <div class="left">
+                                                    <button>
+                                                        <img src="assets/img/cross.png" alt="cancel-button"
+                                                            title="cancel-button">
+                                                    </button>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="assets/img/team-4.jpg" alt="">
+
+                                                    <span class="team-mem">
+                                                        Yahya
+                                                        <span class="team-dis">
+                                                            web designer
+                                                        </span>
+                                                    </span>
+                                                </div>
+
+                                            </label> <label for="sss" class="team-checkbox cencle-member">
+                                                <div class="left">
+                                                    <button>
+                                                        <img src="assets/img/cross.png" alt="cancel-button"
+                                                            title="cancel-button">
+                                                    </button>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="assets/img/team-1.jpg" alt="">
+
+                                                    <span class="team-mem">
+                                                        Hardik
+                                                        <span class="team-dis">
+                                                            Project Manager
+                                                        </span>
+                                                    </span>
+                                                </div>
+
+                                            </label> <label for="sss" class="team-checkbox cencle-member">
+                                                <div class="left">
+                                                    <button>
+                                                        <img src="assets/img/cross.png" alt="cancel-button"
+                                                            title="cancel-button">
+                                                    </button>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="assets/img/team-1.jpg" alt="">
+
+                                                    <span class="team-mem">
+                                                        Hardik
+                                                        <span class="team-dis">
+                                                            Project Manager
+                                                        </span>
+                                                    </span>
+                                                </div>
+
+                                            </label> <label for="sss" class="team-checkbox cencle-member">
+                                                <div class="left">
+                                                    <button>
+                                                        <img src="assets/img/cross.png" alt="cancel-button"
+                                                            title="cancel-button">
+                                                    </button>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="assets/img/team-1.jpg" alt="">
+
+                                                    <span class="team-mem">
+                                                        Hardik
+                                                        <span class="team-dis">
+                                                            Project Manager
+                                                        </span>
+                                                    </span>
+                                                </div>
+
+                                            </label> <label for="sss" class="team-checkbox cencle-member">
+                                                <div class="left">
+                                                    <button>
+                                                        <img src="assets/img/cross.png" alt="cancel-button"
+                                                            title="cancel-button">
+                                                    </button>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="assets/img/team-1.jpg" alt="">
+
+                                                    <span class="team-mem">
+                                                        Hardik
+                                                        <span class="team-dis">
+                                                            Project Manager
+                                                        </span>
+                                                    </span>
+                                                </div>
+
+                                            </label> <label for="sss" class="team-checkbox cencle-member">
+                                                <div class="left">
+                                                    <button>
+                                                        <img src="assets/img/cross.png" alt="cancel-button"
+                                                            title="cancel-button">
+                                                    </button>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="assets/img/team-1.jpg" alt="">
+
+                                                    <span class="team-mem">
+                                                        Hardik
+                                                        <span class="team-dis">
+                                                            Project Manager
+                                                        </span>
+                                                    </span>
+                                                </div>
+
+                                            </label> <label for="sss" class="team-checkbox cencle-member">
+                                                <div class="left">
+                                                    <button>
+                                                        <img src="assets/img/cross.png" alt="cancel-button"
+                                                            title="cancel-button">
+                                                    </button>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="assets/img/team-1.jpg" alt="">
+
+                                                    <span class="team-mem">
+                                                        Hardik
+                                                        <span class="team-dis">
+                                                            Project Manager
+                                                        </span>
+                                                    </span>
+                                                </div>
+
+                                            </label> <label for="sss" class="team-checkbox cencle-member">
+                                                <div class="left">
+                                                    <button>
+                                                        <img src="assets/img/cross.png" alt="cancel-button"
+                                                            title="cancel-button">
+                                                    </button>
+                                                </div>
+                                                <div class="right">
+                                                    <img src="assets/img/team-1.jpg" alt="">
+
+                                                    <span class="team-mem">
+                                                        Hardik
+                                                        <span class="team-dis">
+                                                            Project Manager
+                                                        </span>
+                                                    </span>
+                                                </div>
+
+                                            </label>
+                                        </div>
+                                        <div class="cover-bar"></div>
+                                    </div>
+
+                                    <div class="buttons">
+                                        <button class="star-btn next_button">Delete Team</button>
+                                    </div>
+                                    <div class="close-project-desc-main-box">
+                                        <a href="javascript:void(0);" class="close-project-desc"><img
+                                                src="assets/img/left-arrow.png" alt=""></a>
+
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- msg section -->
+                        <div class="msg-section">
+                            <div class="msg-listing">
+                                <ul>
+                                    <li class="profile">
+                                        <a href="#">
+                                            <div class="hex">
+                                                <div class="hex-background">
+                                                    <img src="assets/img/team-1.jpg">
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class=" profile-ditels-main-box ">
+                                            <div class="profile-ditels droupdown-main-box">
+                                                <ul>
+                                                    <li><a
+                                                            href="file:///D:/yahya%20kazi/yahya%20kazi/YP/myaccount.html#">My
+                                                            account</a></li>
+                                                    <li><a
+                                                            href="file:///D:/yahya%20kazi/yahya%20kazi/YP/change-password.html#">Change
+                                                            password</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="notification right-side-icon">
+                                        <a href="#"><img src="assets/img/bell.png" alt=""></a>
+                                        <div class="droupdown-main-box">
+                                            <div class="droupdown">
+                                                <div class="notification-title-box">
+                                                    <h3>
+                                                        Notification
+                                                    </h3>
+                                                </div>
+                                                <div class="notification-box">
+                                                    <div class="alert alert-warn">
+                                                        <h4> Notificataion heading</h4>
+                                                        <p>Warning! We're currently carrying out
+                                                            maintenance, some features may not work
+                                                            correctly.
+                                                        </p>
+                                                    </div>
+                                                    <div class="alert  alert-warn">
+                                                        <h4> Notificataion heading</h4>
+                                                        <p> Here's some information you may find
+                                                            useful!</p>
+                                                    </div>
+                                                    <div class="alert  alert-warn">
+                                                        <h4> Notificataion heading</h4>
+                                                        <p> An error occurred while attempting to
+                                                            register your account...</p>
+                                                    </div>
+                                                    <div class="alert  alert-warn">
+                                                        <h4> Notificataion heading</h4>
+                                                        <p> Success!Your registration is now
+                                                            complete!</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="notification-btn">
+                                                <a href="#"> View All</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+                <!-- RESPONSIVE ADD BTN -->
+                <div class="add-btn">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50px" height="50px">
+                        <g fill="#595bd4" transform="translate(2 2)" class="color200e32 svgShape">
+                            <path
+                                d="M14.6666667,0 L5.33333333,0 C1.92888889,0 0,1.92888889 0,5.33333333 L0,14.6666667 C0,18.0622222 1.92,20 5.33333333,20 L14.6666667,20 C18.0711111,20 20,18.0622222 20,14.6666667 L20,5.33333333 C20,1.92888889 18.0711111,0 14.6666667,0 Z"
+                                opacity=".4" fill="#ddd" class="color000000 svgShape">
+                            </path>
+                            <path
+                                d="M13.3204549,10.7083369 L10.7495202,10.7083369 L10.7495202,13.256979 C10.7495202,13.6673381 10.4139486,14 10,14 C9.58605145,14 9.25047985,13.6673381 9.25047985,13.256979 L9.25047985,10.7083369 L6.67954513,10.7083369 C6.29342268,10.6686984 6,10.3461424 6,9.96132113 C6,9.57649984 6.29342268,9.25394382 6.67954513,9.21430535 L9.24242049,9.21430535 L9.24242049,6.67365277 C9.28240567,6.2908784 9.60778305,6 9.99597032,6 C10.3841576,6 10.709535,6.2908784 10.7495202,6.67365277 L10.7495202,9.21430535 L13.3204549,9.21430535 C13.7065773,9.25394382 14,9.57649984 14,9.96132113 C14,10.3461424 13.7065773,10.6686984 13.3204549,10.7083369 L13.3204549,10.7083369 Z"
+                                fill="#4D4D4E" class="color000000 svgShape">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js">
+    </script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/custom-2.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</body>
+
+</html>

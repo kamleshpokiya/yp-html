@@ -1,0 +1,137 @@
+.first-team-form-box {
+    margin: 60px 0;
+    padding-left: 30px;
+}
+
+.login-title-box h3 {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.res-x-btn {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    display: none;
+}
+
+.res-x-btn button {
+    background: #ddd;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 50%;
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+}
+
+.col-md-4.left {
+    padding: 0;
+    padding-right: 15px;
+}
+
+.team-logo {
+    width: 100%;
+    height: 120px;
+}
+
+.file-input {
+    width: 100%;
+    position: relative;
+    border-radius: 3px;
+}
+
+.file-input>[type='file'] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.col-md-4 .team-logo img {
+    width: 100%;
+    height: 200PX;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    opacity: .3;
+
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    display: block !important;
+}
+
+.search-area {
+    border-radius: 8px;
+    border-style: none;
+    padding: 10px 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    font-family: 'Gilroy-regular';
+    font-size: 16px;
+}
+
+.msg-section {
+    position: absolute;
+    top: 0px;
+    right: 0 !important;
+}
+
+.input-box.input.col-lg-6:first-child {
+    padding-left: 0;
+    padding-right: 7.5px;
+
+}
+
+.input-box.input.col-lg-6:last-child {
+    padding-left: 7.5px;
+    padding-right: 0;
+}
+
+.input-box.input.comment textarea {
+    height: 150px;
+}
+
+button.star-btn.next_button {
+    background: #ff8d4f;
+    color: #fff;
+    BORDER: 1PX SOLID #ff8d4f;
+    box-shadow: 2px 4px 12px rgb(39 105 104 / 20%);
+    font-size: 14PX;
+    transition: all 0.5s;
+}
+
+.star-btn {
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+.buttons {
+    float: right;
+}
+
+button.star-btn.next_button:hover {
+    background: #fff;
+    color: #ff8d4f;
+    border: 1PX solid #ff8d4f;
+}
+.input-box.input.comment label,
+label#name-label {
+    margin-bottom: 0;
+    font-size: 15px;
+    font-family: 'Gilroy-Sami-bold';
+}

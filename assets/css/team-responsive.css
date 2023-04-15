@@ -1,0 +1,315 @@
+@media(max-width: 1655px) {
+
+    label.team-checkbox span.team-mem {
+        padding: 5px;
+    }
+
+    .col-md-4.first-team-form-box {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+
+    .col-md-3 {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+
+    .project-des-box .left .team-logo {
+        width: 130px;
+        height: 100px;
+    }
+
+    .des-boxs h4 {
+        font-size: 15px;
+        font-family: 'Gilroy-Sami-bold';
+    }
+
+    .des-boxs>p {
+        font-size: 13px;
+        color: #4D4D4E;
+    }
+}
+
+@media(max-width: 1365px) {
+
+
+    .col-md-4.first-team-form-box {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    div#first {
+        position: absolute;
+        right: 46px;
+        top: 44px;
+        padding: 0;
+    }
+
+    a.close-project-desc {
+        left: -20px;
+    }
+}
+
+
+@media(max-width: 1199px) {
+    div#first {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media(max-width: 991px) {
+    .col-md-4.first-team-form-box {
+        margin: 0px;
+        padding: 0;
+        border: 0;
+    }
+
+    .col-md-3.secend-your-teams-box {
+        margin: 0px;
+        padding-left: 15px;
+    }
+
+    .secend-box input.search {
+        width: 100% !important;
+    }
+
+    .col-md-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-md-4.first-team-form-box {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    button.star-btn.next_button {
+        width: unset;
+    }
+
+
+
+}
+
+@media(max-width: 768px) {
+    .col-md-4.first-team-form-box {
+        position: absolute;
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        background: #f6f7f9;
+        z-index: 11111;
+        right: 0;
+        left: 600px;
+        padding: 0px 25px;
+        visibility: hidden;
+        transition: all 1.5s;
+    }
+
+    .res-x-btn {
+        display: block;
+    }
+
+
+
+    .col-md-8 {
+        padding: 0;
+    }
+
+    .team-logo {
+        width: 150px !important;
+        height: 140px !important;
+    }
+
+    .main-btn-box .btn, button.submit_button.star-btn, button.star-btn.pre_button, button.star-btn.next_button, .catagory-main-box button.add-more_button.star-btn {
+        width: unset !important;
+    }
+
+    button.star-btn.next_button {
+        width: unset;
+    }
+
+    .buttons .star-btn {
+        padding: 10px 50px !important;
+    }
+
+    .secend-box button {
+        height: 36px;
+        top: 29px;
+    }
+
+    .col-md-3.secend-your-teams-box {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .add-btn {
+        display: block;
+    }
+
+    .yk-main-box.scroll-box {
+        padding-right: 0;
+
+    }
+
+    .yykk {
+        left: 0 !important;
+        visibility: visible !important;
+    }
+
+    .row {
+        margin: 0;
+        overflow: hidden;
+    }
+
+    div#first {
+        flex: 0 0 60%;
+        max-width: 60%;
+        right: 36px;
+        z-index: 1111;
+    }
+
+    .project-des-box {
+        display: block;
+    }
+
+    .des-boxs h4 {
+        font-size: 13px;
+        font-family: 'Gilroy-Sami-bold';
+    }
+
+    .des-boxs>p {
+        font-size: 13px;
+        color: #4D4D4E;
+    }
+
+}
+
+@media (max-width: 585px) {
+    .login-title-box h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        margin-top: 17px;
+    }
+
+    .add-btn svg {
+        width: 40px;
+    }
+
+    .buttons .star-btn {
+        padding: 8px 30px !important;
+    }
+
+    .team-logo {
+        width: 120px !important;
+        height: 110px !important;
+    }
+
+
+
+}
+
+@media (max-width: 475px) {
+    label.team-checkbox span.team-mem {
+        padding: 5px 10px;
+        font-size: 11px;
+    }
+
+    div#first .project-des-main-box {
+        padding: 10px;
+    }
+
+    .project-des-main-box label.team-checkbox.xxx::before {
+        font-size: 15px;
+        width: 20px;
+        height: 20px;
+        left: -24px;
+        top: 13px;
+    }
+
+    button.star-btn.next_button {
+        width: unset;
+    }
+
+    .buttons .star-btn {
+        padding: 7px 20px !important;
+    }
+
+    .project-des-main-box .scroll-bar-wrap .yk-main-box.scroll-box {
+        padding-left: 25px;
+    }
+
+    .team-logo {
+        width: 120px !important;
+        height: 100px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .navigation .logo h1 {
+        font-size: 18px;
+    }
+
+    .login-title-box h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .add-btn {
+        top: 40px;
+    }
+
+    .team-logo {
+        width: 90px !important;
+        height: 70px !important;
+
+    }
+
+    #name, #email, #number, #comment {
+        padding: 5px 10px;
+    }
+
+    .res-x-btn button {
+        width: 25px;
+        height: 25px;
+        font-size: 13px;
+    }
+
+    input.search {
+        padding: 5px 10px;
+        margin-bottom: 15px;
+    }
+    .secend-box button {
+        height: 33px;
+        top: 29px;
+    }
+    label#name-label {
+        font-size: 13px;
+    }
+    .secend-box button {
+        height: 30px;
+        top: 28px;
+    }
+    .main-checkbox {
+        height: 187px !important;
+    }
+    .buttons {
+        float: right;
+        padding: 20px 15px;
+    }
+
+
+}
